@@ -29,8 +29,6 @@ A minimal, efficient Reddit client for watches running ZeppOS.
 
 `technology`, `news`, `funny`, `gaming`, `askreddit`
 
-These can be added to or removed from your favorites list at any time.
-
 ## Notes
 
 - Uses Reddit's public JSON API. No account or API key are required.
