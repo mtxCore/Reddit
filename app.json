@@ -1,0 +1,62 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1110391,
+    "appName": "Reddit",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "A Reddit client for ZeppOS-based watches"
+  },
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage",
+    "device:os.file_access",
+    "device:os.ble.file_transfer"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "4.2",
+      "target": "4.2",
+      "minVersion": "4.2"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/feed",
+            "page/comments",
+            "page/subreddits",
+            "page/settings",
+            "page/settingsDetail"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "dw": 480
+        },
+        {
+          "st": "s",
+          "dw": 390
+        }
+      ]
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Reddit"
+    }
+  },
+  "defaultLanguage": "en-US"
+}

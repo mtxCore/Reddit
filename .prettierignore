@@ -1,0 +1,7 @@
+node_modules
+dist
+*.tga
+*.bin
+assets
+README.md
+LICENSE
