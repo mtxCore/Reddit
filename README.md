@@ -2,6 +2,10 @@
 
 A minimal, efficient Reddit client for watches running ZeppOS.
 
+## Preview
+<img width="390" height="450" alt="image" src="https://github.com/user-attachments/assets/c26ed684-76fd-49aa-9161-993cc0fa1dbb" />
+
+
 ## Features
 
 - **Feed** — Swipe through posts from any subreddit with default reddit sort options
