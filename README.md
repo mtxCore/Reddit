@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H51ZR38L)
+
 # Reddit for ZeppOS
 
 A minimal, efficient Reddit client for watches running ZeppOS.
